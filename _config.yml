@@ -49,10 +49,10 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             About
-    url:               /about/
+    # url:               /about/
     submenu:
       - title:            About Me
-        url:              /aboutMe/
+        url:              /about/
       - title:            Project
         url:              /project/
   - title:             Language
