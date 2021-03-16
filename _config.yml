@@ -9,7 +9,7 @@ url:                   https://plitche.github.io
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-baseurl:               ''
+# baseurl:               ''
 
 
 # General settings
@@ -17,7 +17,7 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  ko-KR, en-US
+lang:                  ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Plitche
@@ -49,14 +49,14 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             About
-    # url:               /about/
+    url:               /project/
     submenu:
       - title:            About Me
         url:              /about/
       - title:            Project
         url:              /project/
   - title:             Language
-    url:               /Language/
+    url:               /language/
     submenu: 
       - title:            Java
         url:              /java/
@@ -97,7 +97,6 @@ permalink:             /:categories/:year-:month-:day-:title/
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
 paginate_path:         /:num/
-
 
 # Theme
 # ---------------------------------------------------------------------------------------

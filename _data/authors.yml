@@ -8,19 +8,23 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+    **Welcome!** I'm **Yongsoo Kwon** I'm a junior web Back-end developer.
+    This site will be the place where i share **My ideas, experience and knowledge.**
+    I hope you guys find what you want to know from here. 
+    Any **feedback** and **question** is always welcome. **Enjoy your stay!**      
+    (You can call me as **Plitche** that is my nickname.)
 
+    **안녕하세요!** 주니어 백엔드 개발자 **권용수**입니다. 이 사이트는 저의 **생각**이나
+    **경험**, **공부했던 내용**들을 정리하기 위해서 개설하게 되었습니다. 
+    저와 같은 궁금증을 품고 계신 분들은 여기서 해답을 찾을 수 있었으면 좋겠습니다.
+    모든 피드백이나 질문은 언제나 환영합니다. 감사합니다.
   # This photo will be used in the about section
-  picture:
-    path:            https://placehold.it/128x128
+  # picture:
+  #   path:            https://placehold.it/128x128
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+    # srcset:
+    #   1x:            https://placehold.it/128x128
+    #   2x:            https://placehold.it/256x256
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
