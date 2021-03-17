@@ -2,8 +2,8 @@
 layout: post
 title: Example Content II
 categories:
-    - example
-    - exam
+    - about
+    - project
 description: >
   A page showing how regular markdown content is styled in Hydejack.
 image: /assets/img/blog/example-content-ii.jpg

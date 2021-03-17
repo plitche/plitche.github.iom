@@ -62,8 +62,8 @@ menu:
         url:              /java/
       - title:            Javascript
         url:              /javascript/
-  - title:             Server
-    url:               /server/
+  - title:             Framework
+    url:               /framework/
     submenu:
       - title:             Spring
         url:               /spring/
@@ -74,7 +74,7 @@ menu:
         url:               /oracle/
   - title:             Tags
     url:               /tags/
-  - title:             ETC
+  - title:             Etc
     url:               /etc/
 
 

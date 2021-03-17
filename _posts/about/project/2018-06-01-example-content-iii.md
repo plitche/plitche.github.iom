@@ -2,8 +2,8 @@
 layout: post
 title: Example Content III
 categories:
-    - example
-    - exam
+    - about
+    - project
 description: >
   A page showing Hydejack-specific markdown content.
 image: 
