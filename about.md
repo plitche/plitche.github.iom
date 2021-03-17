@@ -2,13 +2,11 @@
 layout: about
 image: /assets/img/profile.jpg
 description: >
-  A boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  This page is created to introduce myself.
+  This page contain about my simple career, education history, skills and so on.
 hide_description: true
 redirect_from:
   - /download/
-toc: true;
-toc_sticky: true;
 ---
 
 # About Me
