@@ -72,8 +72,8 @@ menu:
     submenu:
       - title:             Oracle
         url:               /oracle/
-  - title:             Tags
-    url:               /tags/
+  # - title:             Tags
+  #   url:               /tags/
   - title:             Etc
     url:               /etc/
 
@@ -95,7 +95,7 @@ copyright:             © 2021. All rights reserved.
 permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              10
+paginate:              5
 paginate_path:         /:num/
 
 # Theme
