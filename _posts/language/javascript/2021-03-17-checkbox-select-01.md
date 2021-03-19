@@ -35,7 +35,7 @@ input 태그의 type속성 중 하나인 **checkbox**는 정말 많이 활용이
 	<label for="a04">기타</label>
 ```
 
-> 여기서 label태그는 for타입의 값과 input태그의 id가 일치하게 작성이 되면, <label>태그의 text를 클릭을 할 때 연결된 <input>태그가 선택이 되는 기능이다.
+> 여기서 label태그는 for타입의 값과 input태그의 id가 일치하게 작성이 되면, label태그의 text를 클릭을 할 때 연결된 input태그가 선택이 되는 기능이다.
 
 > 각각의 input 태그에 name속성을 부여해서 추후 선택된 checkbox의 value를 controller로 전달할 수 있으며, 스크립트에서 name을 이용한 선택자로 활용할 수도 있다.
 
