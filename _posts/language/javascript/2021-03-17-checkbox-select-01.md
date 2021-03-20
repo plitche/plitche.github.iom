@@ -23,16 +23,16 @@ input 태그의 type속성 중 하나인 **checkbox**는 정말 많이 활용이
 ## What? Why? 
 아래와 코드를 활용하여 간단한 5개의 check박스를 만들었다.
 ```html
-	<input type="checkbox" id="total"/>
-	<label for="total">전체</label>
-	<input type="checkbox" value="a01" id="a01" name="searchKey"/>
-	<label for="a01">자유</label>
-	<input type="checkbox" value="a02" id="a02" name="searchKey"/>
-	<label for="a02">익명</label>
-	<input type="checkbox" value="a03" id="a03" name="searchKey"/>
-	<label for="a03">기술</label>
-	<input type="checkbox" value="a04" id="a04" name="searchKey"/>
-	<label for="a04">기타</label>
+<input type="checkbox" id="total"/>
+<label for="total">전체</label>
+<input type="checkbox" value="a01" id="a01" name="searchKey"/>
+<label for="a01">자유</label>
+<input type="checkbox" value="a02" id="a02" name="searchKey"/>
+<label for="a02">익명</label>
+<input type="checkbox" value="a03" id="a03" name="searchKey"/>
+<label for="a03">기술</label>
+<input type="checkbox" value="a04" id="a04" name="searchKey"/>
+<label for="a04">기타</label>
 ```
 
 > 여기서 label태그는 for타입의 값과 input태그의 id가 일치하게 작성이 되면, label태그의 text를 클릭을 할 때 연결된 input태그가 선택이 되는 기능이다.
