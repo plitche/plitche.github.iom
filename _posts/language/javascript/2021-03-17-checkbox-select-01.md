@@ -50,13 +50,13 @@ input 태그의 type속성 중 하나인 **checkbox**는 정말 많이 활용이
 
 ### 전체 선택시 모든 checkbox 선택
 ```js
-		$('#total').on('click', function(){   // 전체 id="total"에 클릭 이벤트 함수 실행
-			if($('#total').prop('checked')) {   // 전체 checkbox가 checked(선택)되어있는 경우 
-				$('input[type="checkbox"]').prop('checked',true);  // 모든 checkbox 선택 처리 하기
-			} else { 
-				$('input[type="checkbox"]').prop('checked',false); // 모든 checkbox 선택해제 하기
-			}
-		});
+$('#total').on('click', function(){   // 전체 id="total"에 클릭 이벤트 함수 실행
+	if($('#total').prop('checked')) {   // 전체 checkbox가 checked(선택)되어있는 경우 
+		$('input[type="checkbox"]').prop('checked',true);  // 모든 checkbox 선택 처리 하기
+	} else { 
+		$('input[type="checkbox"]').prop('checked',false); // 모든 checkbox 선택해제 하기
+	}
+});
 ```
 
 1. total이라는 id를 가진 checkbox가 클릭이 되면,
@@ -68,13 +68,13 @@ input 태그의 type속성 중 하나인 **checkbox**는 정말 많이 활용이
 
 ### 전체 제외한 나머지 checkbox 체크 여부에 따른 제어
 ```js
-		$('input[name="searchKey"]').on('click', function(){   // 해당 name속성을 가진 checkbox에 클릭 이벤트 부여
-			if ($('input[name="searchKey"]:checked').length == 4) { // 선택된 개수가 4개일 때
-				$('#total').prop('checked', true);  // id가 total인 checkbox 선택
-			} else {
-				$('#total').prop('checked', false); // id가 total인 checkbox 선택해제
-			}	
-		});
+$('input[name="searchKey"]').on('click', function(){   // 해당 name속성을 가진 checkbox에 클릭 이벤트 부여
+	if ($('input[name="searchKey"]:checked').length == 4) { // 선택된 개수가 4개일 때
+		$('#total').prop('checked', true);  // id가 total인 checkbox 선택
+	} else {
+		$('#total').prop('checked', false); // id가 total인 checkbox 선택해제
+	}	
+});
 ```
 
 1. name속성의 값이 searchKey인 checkbox가 클릭이 되면,
