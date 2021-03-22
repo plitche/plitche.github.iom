@@ -8,7 +8,7 @@ categories:
 description: >
   About the insert various row at one time query statement at Oracle Database.
 image: /assets/img/blog/example-content-ii.jpg
-sitemap: false
+sitemap: true
 ---
 
 안녕하세요! Plitche(플리체)입니다.  

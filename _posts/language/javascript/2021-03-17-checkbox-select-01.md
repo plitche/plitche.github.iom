@@ -8,7 +8,7 @@ categories:
 description: >
   About the checkbox control with javascript.
 image: /assets/img/blog/example-content-ii.jpg
-sitemap: false
+sitemap: true
 ---
 
 안녕하세요! Plitche(플리체)입니다.  
