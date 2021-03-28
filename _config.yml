@@ -72,6 +72,8 @@ menu:
     submenu:
       - title:             Oracle
         url:               /oracle/
+      - title:             MS SQL
+        url:               /mssql/
   # - title:             Tags
   #   url:               /tags/
   - title:             Etc
