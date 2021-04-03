@@ -7,7 +7,7 @@ categories:
     - java
 description: >
   About the java class 'SimpleDateFormat'.
-image: /assets/img/blog/example-content-ii.jpg
+image: /assets/img/blog/java1.jpg
 sitemap: false
 ---
 

@@ -7,7 +7,7 @@ categories:
     - oracle
 description: >
   About the insert various row at one time query statement at Oracle Database.
-image: /assets/img/blog/example-content-ii.jpg
+image: /assets/img/blog/database1.jpg
 sitemap: false
 ---
 
