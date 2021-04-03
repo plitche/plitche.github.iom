@@ -7,7 +7,7 @@ categories:
     - javascript
 description: >
   About the checkbox control with javascript.
-image: /assets/img/blog/example-content-ii.jpg
+image: /assets/img/blog/javascript.jpg
 sitemap: false
 ---
 

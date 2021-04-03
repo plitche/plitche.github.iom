@@ -4,9 +4,10 @@ title: "[Excel] 엑셀로 만드는 쉬운 Insert 쿼리(다중insert)"
 subtitle: Database / excel / insert / 단축키
 categories:
     - database
+    - other
 description: >
   About the make multiple row insert query at excel.
-image: /assets/img/blog/example-content-ii.jpg
+image: /assets/img/blog/database3.jpg
 sitemap: false
 ---
 
@@ -23,7 +24,7 @@ Test를 하기 위한 ***쿠폰 번호***는 임의로 생성하여서 사용하
 ~~하마타면 종일 더블킬릭만 할 뻔 했다..~~  
 Excel을 이용한다면 정말 쉽게 몇 만, 몇 십만개라도 순식산에 작성할 수 있다.  
 
-# DB Table 구조
+## DB Table 구조
 아래의 쿼리문을 통해 간단한 **시퀀스**와 **COUPON** 테이블을 만들어 두었다.
 ```sql
 CREATE SEQUENCE coupon_seq  -- 시퀀스명

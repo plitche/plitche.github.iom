@@ -74,6 +74,8 @@ menu:
         url:               /oracle/
       - title:             MS SQL
         url:               /mssql/
+      - title:             Other
+        url:               /other/
   # - title:             Tags
   #   url:               /tags/
   - title:             Etc
