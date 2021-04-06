@@ -25,12 +25,12 @@ SQL Server에서 제공되는 프로그래밍 기능으로 어떠한 동작을 *
 ## SSMS(SQL Server Management Studio) 단축키 설정
 ### 1. Tools -> Options  
 **도구 -> 옵션**을 통하여 옵션창을 열어준다.  
-![](/assets/post/mssql/20210404/01.JPG)  
+![](/assets/post/mssql/20210404/01.jpg)  
   
 ### 2. Environment -> Keyboard -> Query Shortcuts  
 **환경 -> 키보드 -> 단축키**을 통해 아래 사진처럼 **<font color="Red">Store Procedure</font>**부분에 작성해준다.
 <font color="gray">(순서는 상관없이 본인이 편한위치에 작성을 해주어라.)</font>
-![](/assets/post/mssql/20210404/02.JPG)
+![](/assets/post/mssql/20210404/02.jpg)
 
 ## 각각 Procedures 설명
 #### 1. sp_help
