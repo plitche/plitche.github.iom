@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "[Transaction] 트랜잭션이란? - 이해하기 쉬운 트랜잭션 개념"
-subtitle: Database / transaction / 개념
+title: "[MS SQL] 트랜잭션(Transaction)이란? - 이해하기 쉬운 트랜잭션 개념"
+subtitle: Database / transaction / 개념 / MS SQL
 categories:
     - database
-    - other
+    - mssql
 description: >
   About the concept of Transaction
-image: /assets/img/blog/database3.jpg
+image: /assets/img/blog/database2.jpg
 sitemap: false
 ---
 
 안녕하세요! Plitche(플리체)입니다.  
-이번 포스팅은 [Transaction] **트랜잭션**이란? - 이해하기 쉬운 트랜잭션 개념입니다.
+이번 포스팅은 [MS SQL] **트랜잭션(Transaction)**이란? - 이해하기 쉬운 트랜잭션 개념입니다.
 
 * toc
 {:toc .large-only}
