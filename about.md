@@ -1,5 +1,5 @@
 ---
-layout: about1
+layout: about
 image: /assets/img/profile.jpg
 description: >
   This page is created to introduce myself.
