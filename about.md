@@ -45,7 +45,7 @@ I thought the value of service is in user who use the service. Between develop a
 <!-- {% include table.md %} -->
 　**Education**  
 * 2020.09 ~ 2021.03 코리아IT아카데미 스프링기반 풀스택 개발자 양성 과정 [수료]
-* 2011.03 ~ 2018.02 해외 어학 연수 Malvern in Dublin [Upper Intermediate Level]
+* 2015.03 ~ 2015.10 해외 어학 연수 Malvern in Dublin [Upper Intermediate Level]
 * 2011.03 ~ 2018.02 인하대학교 소비자학과 [졸업]
 * 2008.03 ~ 2008.02 상주고등학교 인문계열 [졸업]
 
