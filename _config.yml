@@ -62,6 +62,8 @@ menu:
         url:              /java/
       - title:            Javascript
         url:              /javascript/
+      - title:            Vue
+        url:              /vue/
   - title:             Framework
     url:               /framework/
     submenu:

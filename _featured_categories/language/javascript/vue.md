@@ -3,16 +3,16 @@
 layout: list
 
 # The title of the tag's page.
-title: Javascript
+title: Vue
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: javascript
+slug: vue
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This place that arrange my ideas or knowledge about Javascript
+  This place that arrange my ideas or knowledge about Vue
   <br/>
-  이 곳은 자바스크립트에 대한 내용을 정리하는 곳 입니다.
+  이 곳은 뷰에 대한 제 공부 내용과 생각을 정리하는 곳 입니다.
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
