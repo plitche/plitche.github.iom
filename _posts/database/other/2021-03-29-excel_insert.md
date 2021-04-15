@@ -61,7 +61,7 @@ Excel의 CONCATENATE()를 이용해서 원하는 셀들을 합쳐 하나의 셀�
 ![](/assets/post/database/20210329/03.JPG)  
 
 #### (3) 단축키 Ctrl + Shift + End
-* 쿼리문을 작성할 첫번째 셀에 커서를 두고 **<font color=red">ctrl + shift + end</font>**를 같이 누르면 사진과 같이 아래로 열이 선택될 것이다.  
+* 쿼리문을 작성할 첫번째 셀에 커서를 두고 **<font color="red">ctrl + shift + end</font>**를 같이 누르면 사진과 같이 아래로 열이 선택될 것이다.  
 ![](/assets/post/database/20210329/04.JPG)  
 
 #### (4) 단축키 Ctrl + D
