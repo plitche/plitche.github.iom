@@ -61,18 +61,18 @@ Excel의 CONCATENATE()를 이용해서 원하는 셀들을 합쳐 하나의 셀�
 ![](/assets/post/database/20210329/03.JPG)  
 
 #### (3) 단축키 Ctrl + Shift + End
-* 쿼리문을 작성할 첫번째 셀에 커서를 두고 **<font color=red">ctrl + shift + end</font>**를 같이 누르면 사진과 같이 아래로 열이 선택될 것이다.  
+* 쿼리문을 작성할 첫번째 셀에 커서를 두고 **<font color="red">ctrl + shift + end</font>**를 같이 누르면 사진과 같이 아래로 열이 선택될 것이다.  
 ![](/assets/post/database/20210329/04.JPG)  
 
 #### (4) 단축키 Ctrl + D
-* 열이 선택이 되었다면 **<font color=red">ctrl + d</font>**를 함께 눌러 첫 번째 셀과 동일한 함수가 적용되도록 하자.
+* 열이 선택이 되었다면 **<font color="red">ctrl + d</font>**를 함께 눌러 첫 번째 셀과 동일한 함수가 적용되도록 하자.
 
 #### (5) Error + Solution
 * 엥?? 근데 아래 사진의 결과를 보면 알 수 있듯이 원하는대로 작성되지 않았다. 뭐가 문제일까?
 ![](/assets/post/database/20210329/05.JPG)  
 
 * 일반적으로 엑셀은 동일한 함수를 적용한다거나 할 때 **자동으로 알파벳과 숫자를 증가시켜 준다.**
-* 이를 제대로 작동하기 위해서는 **<font color=red">$, 달러 기호</font>**를 증가시키지 않고 fix(고정)시키길 원하는 문자 앞에 작성해준다.  
+* 이를 제대로 작동하기 위해서는 **<font color="red">$, 달러 기호</font>**를 증가시키지 않고 fix(고정)시키길 원하는 문자 앞에 작성해준다.  
 ![](/assets/post/database/20210329/06.JPG)  
 
 #### (6) result(결과)
@@ -80,7 +80,7 @@ Excel의 CONCATENATE()를 이용해서 원하는 셀들을 합쳐 하나의 셀�
 ![](/assets/post/database/20210329/07.JPG)  
 
 ### 03. '&' 활용
-* CONCATENATE()를 굳이 번거롭다 하시는 분들은 **<font color=red">& 기호</font>**를 활용하면 동일한 결과를 얻을 수 있다.
+* CONCATENATE()를 굳이 번거롭다 하시는 분들은 **<font color="red">& 기호</font>**를 활용하면 동일한 결과를 얻을 수 있다.
 ![](/assets/post/database/20210329/08.JPG)  
 
 ## review
