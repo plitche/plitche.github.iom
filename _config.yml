@@ -76,12 +76,17 @@ menu:
         url:               /oracle/
       - title:             MS SQL
         url:               /mssql/
+      - title:             ElasticSearch
+        url:               /elasticsearch/
       - title:             Other
         url:               /other/
   # - title:             Tags
   #   url:               /tags/
   - title:             Etc
     url:               /etc/
+    submenu:
+      - title:             Programs
+        url:               /programs/
 
 
 # Add links to the footer.
