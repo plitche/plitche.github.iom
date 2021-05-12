@@ -76,7 +76,7 @@ menu:
         url:               /oracle/
       - title:             MS SQL
         url:               /mssql/
-      - title:             ElasticSearch
+      - title:             ELK
         url:               /elasticsearch/
       - title:             Other
         url:               /other/
