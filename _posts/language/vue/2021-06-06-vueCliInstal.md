@@ -8,7 +8,6 @@ categories:
 description: >
   About the how to install vue with vue cli
 image: /assets/img/blog/vue1.jpg
-sitemap: false
 ---
 
 안녕하세요! Plitche(플리체)입니다.  

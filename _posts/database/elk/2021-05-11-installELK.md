@@ -8,7 +8,6 @@ categories:
 description: >
   About how to setting and install ELK with Docker
 image: /assets/img/blog/bigdata.jpg
-sitemap: false
 ---
 
 안녕하세요! Plitche(플리체)입니다.  
