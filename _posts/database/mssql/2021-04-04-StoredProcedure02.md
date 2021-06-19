@@ -8,7 +8,6 @@ categories:
 description: >
   About the Stored Procedure's concept and how to setting SQL Server Management Studio.
 image: /assets/img/blog/database2.jpg
-sitemap: false
 ---
 
 안녕하세요! Plitche(플리체)입니다.  

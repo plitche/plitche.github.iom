@@ -8,7 +8,6 @@ categories:
 description: >
   About way to use aggregaion function from multi column
 image: /assets/img/blog/database2.jpg
-sitemap: false
 ---
 안녕하세요! Plitche(플리체)입니다.  
 이번 포스팅은 **[MS SQL] 다중 컬럼에서 사용하는 집계 함수(MIN, MAX, SUM, AVG)**입니다.

@@ -8,7 +8,6 @@ categories:
 description: >
   About the java class 'SimpleDateFormat'.
 image: /assets/img/blog/java1.jpg
-sitemap: false
 ---
 
 안녕하세요! Plitche(플리체)입니다.  

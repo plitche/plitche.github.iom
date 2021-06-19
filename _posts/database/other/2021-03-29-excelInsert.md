@@ -8,7 +8,6 @@ categories:
 description: >
   About the make multiple row insert query at excel.
 image: /assets/img/blog/database3.jpg
-sitemap: false
 ---
 
 안녕하세요! Plitche(플리체)입니다.  
