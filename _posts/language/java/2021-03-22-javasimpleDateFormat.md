@@ -31,7 +31,7 @@ image: /assets/img/blog/java1.jpg
 다행이도 자바에서는 **SImpleDateFormat이라는 클래스**를 통해서 가주 간편하게 활용할 수 있다.
 
 ## SimpleDateFormat의 패턴
-simpleDateFormat는 날짜를 개발자가 원하는 형태, 포맷에 맞추어 파싱/포맷팅 하는 역할을 한다.
+simpleDateFormat는 날짜를 개발자가 원하는 형태, 포맷에 맞추어 파싱/포맷팅 하는 역할을 한다.  
 <br/>
 이 클래스를 사용하기 위한 기본적인 패턴에 대해서는 [oracle 홈페이지](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)를 참조하였다.  
 
