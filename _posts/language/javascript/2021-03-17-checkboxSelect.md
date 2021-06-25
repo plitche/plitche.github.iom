@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[jQuery] 체크박스(checkbox) 활용하기 - 게시판"
-subtitle: jquery / checkbox / board
+subtitle: jquery / checkbox / board / tag / 
 categories:
     - language
     - javascript
