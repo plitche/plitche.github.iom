@@ -42,28 +42,28 @@ image: /assets/img/blog/java1.jpg
 import java.util.Scanner;
 public class Example {
 
-	public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
         
-        int malePeople = 0; // 남자 명수
-     	int femalePeople = 0; // 여자 명수
+    int malePeople = 0; // 남자 명수
+    int femalePeople = 0; // 여자 명수
         
-        for (int i=0; i<10; i++) {
-        	String gender = sc.next();  // 성별 입력 받기
-        	
-        	if (gender.equals("Male")) {  // 남자가 입력되었다면,
-        		malePeople++; // 남자 +1
-        	} else {
-        		femalePeople++; // 여자 +1
-        	}
-        }
+    for (int i=0; i<10; i++) {
+      String gender = sc.next();  // 성별 입력 받기
+      
+      if (gender.equals("Male")) {  // 남자가 입력되었다면,
+        malePeople++; // 남자 +1
+      } else {
+        femalePeople++; // 여자 +1
+      }
+    }
         
-        // 출력
-        System.out.println("남자 " + malePeople + "명");
-        System.out.println("여자 " + femalePeople + "명");
+    // 출력
+    System.out.println("남자 " + malePeople + "명");
+    System.out.println("여자 " + femalePeople + "명");
      
-        sc.close();
-	}
+    sc.close();
+  }
 }
 ```  
 
@@ -79,29 +79,29 @@ public class Example {
 import java.util.Scanner;
 public class Example {
 
-	public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
         
-        int malePeople = 0; // 남자 명수
-     	int femalePeople = 0; // 여자 명수
+    int malePeople = 0; // 남자 명수
+    int femalePeople = 0; // 여자 명수
         
-        for (int i=0; i<10; i++) {
-        	String gender = sc.next();  // 성별 입력 받기
+    for (int i=0; i<10; i++) {
+      String gender = sc.next();  // 성별 입력 받기
         	
-        	if (gender.equals("Male")) {  // 남자가 입력되었다면,
-        		malePeople++; // 남자 +1
-        	} 
-          if (gender.equals("Female")) {
-        		femalePeople++; // 여자 +1
-        	}
-        }
+      if (gender.equals("Male")) {  // 남자가 입력되었다면,
+        malePeople++; // 남자 +1
+      } 
+      if (gender.equals("Female")) {
+        femalePeople++; // 여자 +1
+      }
+    }
         
-        // 출력
-        System.out.println("남자 " + malePeople + "명");
-        System.out.println("여자 " + femalePeople + "명");
+    // 출력
+    System.out.println("남자 " + malePeople + "명");
+    System.out.println("여자 " + femalePeople + "명");
      
-        sc.close();
-	}
+    sc.close(); 
+  }
 }
 ```  
 
@@ -116,36 +116,35 @@ public class Example {
 import java.util.Scanner;
 public class Example {
 
-	public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
         
-        int malePeople = 0; // 남자 명수
-     	int femalePeople = 0; // 여자 명수
+    int malePeople = 0; // 남자 명수
+    int femalePeople = 0; // 여자 명수
         
-        for (int i=0; i<10; i++) {
-        	String gender = sc.next();  // 성별 입력 받기
+    for (int i=0; i<10; i++) {
+      String gender = sc.next();  // 성별 입력 받기
         	
-          // Male, Female이 아닌 오타로 인한 다른 문자가 입력된다면,
-          if (!gender.equals("Male") || !gender.equals("Female") ) {  
-            System.out.println("Male 또는 Female을 입력해주세요.");
-            i--;
-          } else {
-        	  if (gender.equals("Male")) {  // 남자가 입력되었다면,
-           		malePeople++; // 남자 +1
-           	} 
-            	
-            if (gender.equals("Female")) {
-            	femalePeople++; // 여자 +1
-            }	
-          }
-        }
+      // Male, Female이 아닌 오타로 인한 다른 문자가 입력된다면,
+      if (!gender.equals("Male") || !gender.equals("Female") ) {  
+        System.out.println("Male 또는 Female을 입력해주세요.");
+        i--;
+      } else {
+        if (gender.equals("Male")) {  // 남자가 입력되었다면,
+          malePeople++; // 남자 +1
+        } 
+        if (gender.equals("Female")) {
+          femalePeople++; // 여자 +1
+        }	
+      }
+    }
         
-        // 출력
-        System.out.println("남자 " + malePeople + "명");
-        System.out.println("여자 " + femalePeople + "명");
+    // 출력
+    System.out.println("남자 " + malePeople + "명");
+    System.out.println("여자 " + femalePeople + "명");
      
-        sc.close();
-	}
+    sc.close();
+  }
 }
 ```  
 
@@ -162,51 +161,53 @@ public class Example {
 import java.util.Scanner;
 public class Example {
 
-	public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
         
-        int malePeople = 0; // 남자 명수
-     	int femalePeople = 0; // 여자 명수
+    int malePeople = 0; // 남자 명수
+    int femalePeople = 0; // 여자 명수
         
-        for (int i=0; i<10; i++) {
-        	String gender = sc.next();  // 성별 입력 받기
+    for (int i=0; i<10; i++) {
+      String gender = sc.next();  // 성별 입력 받기
         	
-          // Male, Female이 아닌 오타로 인한 다른 문자가 입력된다면,
-          if (!gender.equals("Male") || !gender.equals("Female") ) {  
-            System.out.println("Male 또는 Female을 입력해주세요.");
-            i--;
-          } else {
-        	  if (gender.equals("Male")) {  // 남자가 입력되었다면,
-           		malePeople++; // 남자 +1
-           	} 
-            	
-            if (gender.equals("Female")) {
-            	femalePeople++; // 여자 +1
-            }	
-          }
-        }
+      // Male, Female이 아닌 오타로 인한 다른 문자가 입력된다면,
+      if (!gender.equals("Male") || !gender.equals("Female") ) {  
+        System.out.println("Male 또는 Female을 입력해주세요.");
+        i--;
+      } else {
+        if (gender.equals("Male")) {  // 남자가 입력되었다면,
+          malePeople++; // 남자 +1
+        } 
+        if (gender.equals("Female")) {
+          femalePeople++; // 여자 +1
+        }	
+      }
+    }
         
-        // 최종 출력 방지/검증 코드
-        if (malePeople+femalePeople==0) {
-          // 출력
-          System.out.println("남자 " + malePeople + "명");
-          System.out.println("여자 " + femalePeople + "명");
-        } else {
-          System.out.println("입력하신 사람의 숫자가 10명이 아닙니다.");
-        }
+    // 최종 출력 방지/검증 코드
+    if (malePeople+femalePeople==0) {
+      // 출력
+      System.out.println("남자 " + malePeople + "명");
+      System.out.println("여자 " + femalePeople + "명");
+    } else {
+      System.out.println("입력하신 사람의 숫자가 10명이 아닙니다.");
+    }
 
-        sc.close();
-	}
+    sc.close();
+  }
 }
 ```  
 
 위와 같이 모든 입력을 다 받고나서 출력해주기 전에 다시 한번더 **<font color="red">검증/방지</font>**해주어야 한다.
 
 ## review
-* 이외에 대표적으로는 세션이 만료가 되거나 쿠키가 삭제되는 경우가 있습니다.
+* 이외에 대표적으로는 `세션`이 `만료`가 되거나 쿠키가 삭제되는 경우가 있습니다.
   - 쇼핑몰에서 장바구니에 상품을 담으려면 로그인이 되어있어야 하는데, 앞에서만 체크하고 실제로 동작할때에 체크하지 않았다면?
-  - 세션이 만료가 되어 로그인 정보가 없는데, 기능이 작동해 오류가 발생하는 일이 생길 수 도 있습니다.
+  - 세션이 만료가 되어 로그인 정보가 없는데, 기능이 작동해 **오류가 발생**하는 일이 생길 수 도 있습니다.
 
 * 이런 문제들과 고려해야 되는 부분은 수도 없이 많습니다. 어떤 페이지를 개발을 하고 기능을 개발을 하더라도 항상 생각해야 되는 부분임에는 틀림 없는 것 같습니다!
+
+* 특히나 Database에 접근하여 **data를 변경하게 되는 경우**에는 각별히 몇번에 걸쳐 방지해주어야 할 필요가 있지 않을까 싶습니다.  
+</font color="gray">(세상에는 정말 똑똑한 사람이 많거든요;;)</font>  
 
 * 우리 모두 잊지 말고 신경쓰자구요!^^ 감사합니다.
