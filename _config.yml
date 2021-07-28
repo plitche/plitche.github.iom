@@ -64,11 +64,13 @@ menu:
         url:              /javascript/
       - title:            Vue
         url:              /vue/
-  - title:             Framework
-    url:               /framework/
+  - title:             Algorithm
+    url:               /algorithm/
     submenu:
-      - title:             Spring
-        url:               /spring/
+      - title:             Baekjoon
+        url:               /baekjoon/
+      - title:             CodeUp
+        url:               /codeup/
   - title:             Database
     url:               /database/
     submenu:
