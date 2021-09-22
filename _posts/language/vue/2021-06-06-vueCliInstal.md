@@ -55,7 +55,7 @@ image: /assets/img/blog/vue1.jpg
 
 > node -v, npm -v
 
-위의 명령어를 통하여 제대로 설치가 되었는지 확인하자.
+위의 명령어를 통하여 제대로 설치가 되었는지 확인하자. 아래사진은 참고용.
 ![](/assets/post/vue/20210606/05.jpg)<br/><br/>    
 
 
@@ -77,7 +77,7 @@ image: /assets/img/blog/vue1.jpg
 
 ![](/assets/post/vue/20210606/08.jpg)<br/><br/>  
 
-* 디폴트로 하면 가장 기본 세팅으로 설치가 되며, `Manually select features`를 선택하면, 원하는 기능을 추가로 설정할 수 있다.  
+* 디폴트(기본)로 하면 가장 기본 세팅으로 설치가 되며, `Manually select features`를 선택하면, 원하는 기능을 추가로 설정할 수 있다.  
 > 보통 Router(라우터)와 Vuex는 기본적으로 사용하므로 체크해주자.  
 
 ![](/assets/post/vue/20210606/09.jpg)<br/><br/>  
