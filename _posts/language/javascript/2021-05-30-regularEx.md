@@ -32,7 +32,7 @@ DB에 사용자가 핸드폰 번호를 입력했는지, 이메일을 입력했�
 
 <input type="text"/>
 <input type="button" onclick="fn_submit()" value="SUBMIT(제출)" />
-> 위의 **<font color="Red">SUBMIT(제출)</font>**버튼을 클릭했을 때, 휴대폰인지 이메일인지 판단하여 alert창을 띄워 보도록 하자.
+> 위 **<font color="Red">SUBMIT(제출)</font>**버튼을 클릭했을 때, 휴대폰인지 이메일인지 판단하여 alert창을 띄워 보도록 하자.
 
 ## 2. Script
 - 버튼을 클릭했을 때 동작할 **function(함수)**를 script에 작성해주자.
@@ -79,10 +79,13 @@ DB에 사용자가 핸드폰 번호를 입력했는지, 이메일을 입력했�
 </form>
 <script>
 	function fn_phone() {
+		console.log('123123');
 		var text = document.getElementById('phone').value;
 		var regPhone = /^01([0|1|6|7|8|9])-?([0-9]{3,4})-?([0-9]{4})$/;
 		if (regPhone.test(text) === true) {
 			alert('입력된 값은 휴대전화번호입니다.');
+		} else {
+			alert('입력된 값은 휴대전화번호가 아닙니다.');
 		}
 	}
 </script>
@@ -123,6 +126,8 @@ DB에 사용자가 핸드폰 번호를 입력했는지, 이메일을 입력했�
 		var regEmail = /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/;
 		if (regEmail.test(text) === true) {
 			alert('입력된 값은 이메일입니다.');
+		} else {
+			alert('입력된 값은 이메일이 아닙니다.');
 		}
 	}
 </script>
