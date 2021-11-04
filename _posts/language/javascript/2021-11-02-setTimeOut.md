@@ -96,7 +96,7 @@ Window함수로써 위에 간단히 설명한 것 처럼 내가 지정한 특정
 	}
 
 	$('#testBtn').click(function() {
-		window.setTimeout(fn_setTimeOut, 2000);
+		window.setTimeout(fn_setTimeOut, 2000); // 함수 호출이 아닌 함수 명만 작성해야 한다.
 	});
 </script>
 ```
