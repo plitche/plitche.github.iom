@@ -58,7 +58,7 @@ Window함수로써 위에 간단히 설명한 것 처럼 내가 지정한 특정
 
 <div>
 	<button onclick="fn_setTimeout()">클릭해주세요!</button>
-<div>
+</div>
 <script>
 	function fn_setTimeout() {
 		window.setTimeout(
@@ -71,9 +71,9 @@ Window함수로써 위에 간단히 설명한 것 처럼 내가 지정한 특정
 </script>
 <br/><br/>
 버튼을 클릭했을때 `setTimeout()`을 통해서 내가 지정한 function을 2000 밀리초 이후에 실행하는 것이다.  
-
+  
 물론 그 function을 변수에 저장하여 실행하는 것도 가능하다.  
-	
+  
 ```js
 <script>
 	var fn_setTimeOut = function() {
