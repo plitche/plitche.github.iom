@@ -58,7 +58,7 @@ Window함수로써 위에 간단히 설명한 것 처럼 내가 지정한 특정
 
 <div>
 	<button onclick="fn_setTimeout()">클릭해주세요!</button>
-<div>
+</div>
 <script>
 	function fn_setTimeout() {
 		window.setTimeout(
@@ -69,10 +69,11 @@ Window함수로써 위에 간단히 설명한 것 처럼 내가 지정한 특정
 		);
 	}
 </script>
-
+<br/><br/>
 버튼을 클릭했을때 `setTimeout()`을 통해서 내가 지정한 function을 2000 밀리초 이후에 실행하는 것이다.  
-
-물론 그 function을 변수에 저장하여 실행하는 것도 가능하다.
+  
+물론 그 function을 변수에 저장하여 실행하는 것도 가능하다.  
+  
 ```js
 <script>
 	var fn_setTimeOut = function() {
@@ -83,10 +84,10 @@ Window함수로써 위에 간단히 설명한 것 처럼 내가 지정한 특정
 		window.setTimeout(fn_setTimeOut, 2000);
 	});
 </script>
-```
+```  
 
-## Tip(주의!)
-여기서 한가지 꼭 주의할 점이있다. 저도 처음에 setTimeout을 사용할때에 했던 실수인데, 위 코드를 같이 보도록 하자
+## Tip(주의!)  
+여기서 한가지 꼭 주의할 점이있다. 저도 처음에 setTimeout을 사용할때에 했던 실수인데, 위 코드를 같이 보도록 하자.  
 
 ```js
 <script>
@@ -95,7 +96,7 @@ Window함수로써 위에 간단히 설명한 것 처럼 내가 지정한 특정
 	}
 
 	$('#testBtn').click(function() {
-		window.setTimeout(fn_setTimeOut, 2000);
+		window.setTimeout(fn_setTimeOut, 2000); // 함수 호출이 아닌 함수 명만 작성해야 한다.
 	});
 </script>
 ```
@@ -105,5 +106,5 @@ Window함수로써 위에 간단히 설명한 것 처럼 내가 지정한 특정
 혹여나 `window.setTimeout(fn_setTimeOut(), 2000);` 다음과 같이 작성하게 된다면, 함수를 호출하여 그 함수가 작동해버림으로 주의해야 한다.
 
 
-## review
+## review  
 * 이외에 **setInterval method**는 일정 시간에 따라 반복하는 함수입니다. 이 함수에 대해서는 추후에 다시 포스팅 하도록 하겠습니다.
