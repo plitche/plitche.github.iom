@@ -16,9 +16,6 @@ image: /assets/img/blog/database3.jpg
 * toc
 {:toc .large-only}
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4699618075256363"
-     crossorigin="anonymous"></script>
-
 ## intro
 * 금일 간단한 이벤트(프로모션) 서비스 하나를 오픈하였다. 대표적으로 특정 버튼 클릭 시 **<font color="red">쿠폰을 제공하는</font>** 기능이다.  
 
