@@ -16,6 +16,20 @@ image: /assets/img/blog/database3.jpg
 * toc
 {:toc .large-only}
 
+<div class="ad-second">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4699618075256363" crossorigin="anonymous"></script>
+  <!-- 수평 -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-4699618075256363"
+       data-ad-slot="3477566307"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
 ## intro
 * 금일 간단한 이벤트(프로모션) 서비스 하나를 오픈하였다. 대표적으로 특정 버튼 클릭 시 **<font color="red">쿠폰을 제공하는</font>** 기능이다.  
 
