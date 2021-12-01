@@ -77,7 +77,7 @@ image: /assets/img/blog/javascript2.jpg
 * 하지만 실제로 실행해보면 알럿 확인을 누르기도 전에 setTimeout이 시작되어 2초가 흐르게 되는 경우가 발생한다.
 
 <div>
-	<input type="button" value="알럿 후 링크이동2" onclick="fnAlert2();"/>
+	<input type="button" value="알럿 후 링크이동" onclick="fnAlert2();"/>
 </div>
 <script>
 	function fnAlert2() {
@@ -89,9 +89,43 @@ image: /assets/img/blog/javascript2.jpg
 	}
 </script>
   
-* 위
+> 떄문에 사실 setTimeout 기능은 필요가 없게 되는 것과 마찬가지 이다.  
+  
+* 위와 같이 발생되는 이유는 **<font color="red">비동기</font>** 통신이기 때문에 발생되기 때문에 ajax 호출 등의 경우 주의해야한다.
 
+## Recomend(추천)
+* 경우에 따라 수많은 가지수가 존재하겠지만, 사실 confirm() method를 사용하는 것이 확실하다.  
+
+```html
+<input type="button" value="컴펌 확인 후 링크이동" onclick="fnConfirm();"/>
+```  
+  
+```js
+<script>
+	var fnConfirm = function() {
+		if (confirm('확인을 누르면 Plitche 블로그로 이동합니다. 원치 않으면 취소를 눌려주세요.')) {
+			location.href='https://plitche.github.io';
+		}
+	}
+</script>
+```  
+  
+* 위와같이 confirm 창이 떳을 때에 확인을 누른 경우에만 링크 이동을 하는 것이다.
+
+
+<div>
+	<input type="button" value="컨펌 확인 후 링크이동" onclick="fnConfirm();"/>
+</div>
+<script>
+	function fnConfirm() {
+		if (confirm('확인을 누르면 Plitche 블로그로 이동합니다. 원치 않으면 취소를 눌려주세요.')) {
+			location.href='https://plitche.github.io';
+		}
+	}
+</script>
 
 
 ## review  
-* 이외에 **setInterval method**는 일정 시간에 따라 반복하는 함수입니다. 이 함수에 대해서는 추후에 다시 포스팅 하도록 하겠습니다.
+* 정말 간단한 내용이지만 **비동기 통신**에 대해서 가볍게 생각하면 제대로 작동하지 않는 이유에 대해서 헤멜 수 있는 부분이라 포스팅 하게 되었습니다. :P
+  
+* 오늘도 수고 많으셨습니다. 감사합니다.
