@@ -74,7 +74,7 @@ image: /assets/img/blog/javascript2.jpg
   
 * 위와 같이 작성한다면 간단히 해결될 것이라 생각하기 쉽다.  
 
-* 하지만 실제로 실행해보면 알럿 확인을 누르기도 전에 setTimeout이 시작되어 2초가 흐르게 되는 경우가 발생한다.
+* 하지만 실제로 실행해보면 우리가 의도한대로 실행되지 않는 모습을 볼 수 있다.
 
 <div>
 	<input type="button" value="알럿 후 링크이동" onclick="fnAlert2();"/>
@@ -89,9 +89,7 @@ image: /assets/img/blog/javascript2.jpg
 	}
 </script>
   
-> 떄문에 사실 setTimeout 기능은 필요가 없게 되는 것과 마찬가지 이다.  
-  
-* 위와 같이 발생되는 이유는 **<font color="red">비동기</font>** 통신이기 때문에 발생되기 때문에 ajax 호출 등의 경우 주의해야한다.
+> 위와 같이 발생되는 이유는 **<font color="red">비동기</font>** 통신이기 때문에 발생되기 때문에 ajax 호출 등의 경우 주의해야한다.
 
 ## Recomend(추천)
 * 경우에 따라 수많은 가지수가 존재하겠지만, 사실 confirm() method를 사용하는 것이 확실하다.  
