@@ -64,6 +64,11 @@ menu:
         url:              /javascript/
       - title:            Vue
         url:              /vue/
+  - title:             Programs
+    url:               /programs/
+    submenu: 
+      - title:            Android_Studio
+        url:              /androidStudio/
   - title:             Algorithm
     url:               /algorithm/
     submenu:
@@ -93,8 +98,8 @@ menu:
   - title:             Etc
     url:               /etc/
     submenu:
-      - title:             Programs
-        url:               /programs/
+      - title:             Useful
+        url:               /useful/
 
 
 # Add links to the footer.

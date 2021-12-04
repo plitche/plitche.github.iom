@@ -4,7 +4,7 @@ title: "[PowerShell] VS_Code Terminal Error (이 시스템에서 스크립트를
 subtitle: PowerShell / VSCode / Terminal
 categories:
     - etc
-    - programs
+    - useful
 description: >
   About how to fix VSCode Error with PowerShell
 image: /assets/img/blog/tech.png
