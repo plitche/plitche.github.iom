@@ -69,6 +69,8 @@ menu:
     submenu: 
       - title:            Android_Studio
         url:              /androidStudio/
+      - title:            Eclipse
+        url:              /eclipse/
   - title:             Algorithm
     url:               /algorithm/
     submenu:
