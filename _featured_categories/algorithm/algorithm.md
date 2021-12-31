@@ -10,7 +10,7 @@ slug: algorithm
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This place is where i gather my personal solutions of algorithm's question.
+  This place is where i gather my personal solutions about algorithm's question.
   <br/>
   이 곳은 모든 알고리즘 문제에 대한 내용을 정리하는 곳 입니다.
 
