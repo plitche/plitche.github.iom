@@ -102,6 +102,8 @@ menu:
     submenu:
       - title:             Useful
         url:               /useful/
+      - title:             DayLife
+        url:               /dayLife/
 
 
 # Add links to the footer.
