@@ -1,10 +1,11 @@
+<!--
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
-<!-- www.check-domains.com sitemap generator -->
+!-- www.check-domains.com sitemap generator --
 
 <url>
    <loc>https://plitche.github.io/</loc>
@@ -1777,3 +1778,4 @@
    <priority>0.0001</priority>
 </url>
 </urlset>
+-->
