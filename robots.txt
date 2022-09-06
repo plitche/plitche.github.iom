@@ -1,4 +1,4 @@
-// User-agent: *
-// Allow: /
+// # User-agent: *
+// # Allow: /
 
-// Sitemap: https://plitche.github.io/sitemap.xml
+// # Sitemap: https://plitche.github.io/sitemap.xml
